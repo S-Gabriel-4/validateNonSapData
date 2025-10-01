@@ -1,8 +1,8 @@
 {
-  "id": "com.example.csvrowcounter",
+  "id": "com.example.csvvalidate", 
   "name": "CSV Row Counter",
   "description": "Reads a CSV locally and counts rows (excluding header).",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "vendor": "You",
   "newInstancePrefix": "CSVRowCounter",
 
@@ -20,8 +20,11 @@
   },
 
   "events": {
-     "fileLoaded": { "description": "Fires after a CSV parsed; updates rowCount." },
-     "duplicatesFound": { "description": "Fires after parsing; provides duplicate info." }
+    "fileLoaded": {
+      "description": "Fires after a CSV parsed; updates rowCount."
+    },
+    "duplicatesFound": {
+      "description": "Fires after parsing; provides duplicate info."
     }
   },
 
@@ -29,8 +32,8 @@
     {
       "kind": "main",
       "tag": "csv-row-counter",
-      "url": "https://s-gabriel-4.github.io/validateNonSapData/",
-      "integrity": "sha256-X2VTg2JuYRWdEJkj4p9GBntuUMX3S8G7yhLauA2JiEY="
-    } 
+      "url": "https://s-gabriel-4.github.io/validateNonSapData/main.js",
+      "integrity": "sha256-REPLACE_WITH_SHA256_OF_CURRENT_main.js"
+    }
   ]
 }
