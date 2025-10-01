@@ -1,5 +1,5 @@
 {
-  "id": "com.example.csvvalidate", 
+  "id": "com.example.csvvalidate",
   "name": "CSV Row Counter",
   "description": "Reads a CSV locally and counts rows (excluding header).",
   "version": "1.0.1",
@@ -15,7 +15,6 @@
     "getRowCount":           { "returnType": "number" },
     "getFileName":           { "returnType": "string" },
     "getDuplicateCount":     { "returnType": "number" },
-    "getDuplicatePairs":     { "returnType": "object" },
     "getDuplicatePairsJson": { "returnType": "string" }
   },
 
