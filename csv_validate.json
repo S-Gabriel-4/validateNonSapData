@@ -1,10 +1,10 @@
 {
   "id": "com.example.csvvalidate",
-  "name": "CSV Row Counter",
+  "name": "CSV Validation",
   "description": "Reads a CSV locally and counts rows (excluding header).",
   "version": "1.0.1",
   "vendor": "You",
-  "newInstancePrefix": "CSVRowCounter",
+  "newInstancePrefix": "CSVValidation",
 
   "properties": {
     "rowCount": { "type": "number", "default": 0 },
@@ -30,7 +30,7 @@
   "webcomponents": [
     {
       "kind": "main",
-      "tag": "csv-row-counter",
+      "tag": "csv-validation",
       "url": "https://s-gabriel-4.github.io/validateNonSapData/main.js",
       "integrity": "sha256-REPLACE_WITH_SHA256_OF_CURRENT_main.js"
     }
