@@ -1,4 +1,4 @@
-class CsvRowCounter extends HTMLElement {
+class CsvValidator extends HTMLElement {
   constructor(){
     super();
     const s=this.attachShadow({mode:'open'});
@@ -158,4 +158,4 @@ class CsvRowCounter extends HTMLElement {
     try { return JSON.stringify(this.getDuplicatePairs()); } catch(e){ return "[]"; }
   }
 }
-customElements.define('csv-row-counter', CsvRowCounter);
+customElements.define('csv-validator', CsvValidator);
