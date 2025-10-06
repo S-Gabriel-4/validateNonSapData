@@ -30,7 +30,7 @@
   "webcomponents": [
     {
       "kind": "main",
-      "tag": "csv-validation",
+      "tag": "csv-validator",
       "url": "https://s-gabriel-4.github.io/validateNonSapData/main.js",
       "integrity": "sha256-l1ci2RpCVdkbuSsBNs24Qg5ZQsnvR1hGKLE8j+JDLF0="
     }
